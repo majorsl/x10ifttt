@@ -1,5 +1,5 @@
 #!/bin/sh
-#Version 1.0.1
+#Version 1.0.2
 #This script monitors a Dropbox location for specific files dropped by the IFTTT service.
 #When a matching file is found, it triggers an X10 module event and the file is cleaned-
 #up. See the accompanying launchd script that must be added to your system to trigger this
@@ -36,6 +36,20 @@ if [ -e "laptopoff.txt" ]
 then
 /Users/majorsl/Scripts/GitHub/x10/x10.sh off a7
 rm laptopoff.txt
+fi
+
+#Printer On
+if [ -e "printeron.txt" ]
+then
+/Users/majorsl/Scripts/GitHub/x10/x10.sh on a3
+rm bedroomon.txt
+fi
+
+#Printer Off
+if [ -e "printeroff.txt" ]
+then
+/Users/majorsl/Scripts/GitHub/x10/x10.sh off a3
+rm bedroomoff.txt
 fi
 
 #Holiday Lights On
