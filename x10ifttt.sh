@@ -42,14 +42,14 @@ fi
 if [ -e "printeron.txt" ]
 then
 /Users/majorsl/Scripts/GitHub/x10/x10.sh on a3
-rm bedroomon.txt
+rm printeron.txt
 fi
 
 #Printer Off
 if [ -e "printeroff.txt" ]
 then
 /Users/majorsl/Scripts/GitHub/x10/x10.sh off a3
-rm bedroomoff.txt
+rm printeroff.txt
 fi
 
 #Holiday Lights On
