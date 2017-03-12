@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.themajorshome.x10ifttt</string>
+	<key>Program</key>
+	<string>/Users/majorsl/Scripts/GitHub/x10ifttt/x10ifttt.sh</string>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>WatchPaths</key>
+	<array>
+		<string>/Volumes/Drobo/Storage/Sync/Dropbox/x10/</string>
+	</array>
+</dict>
+</plist>
