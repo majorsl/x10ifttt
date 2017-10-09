@@ -1,12 +1,12 @@
-#!/bin/sh
-#Version 1.0.2
+#!/usr/bin/env bash
+#Version 1.0.3
 #This script monitors a Dropbox location for specific files dropped by the IFTTT service.
 #When a matching file is found, it triggers an X10 module event and the file is cleaned-
 #up. See the accompanying launchd script that must be added to your system to trigger this
 #script.
 
 #Location of the directory to monitor.
-cd /Volumes/Drobo/Storage/Sync/Dropbox/x10
+cd /Volumes/Drobo/Storage/Sync/Dropbox/x10 || exit
 
 #X10 actions.
 
